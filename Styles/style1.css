@@ -1,0 +1,121 @@
+
+        .menu {
+            display: flex;
+            background-color: rgb(178, 178, 178);
+            width: 100vw;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            display: flex;
+            background-color: rgb(189, 189, 138);
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vw;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            width: 70%;
+            flex-wrap: wrap;
+        }
+        .main1{
+            display: flex;
+            flex-basis: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-top: 20px;
+        }
+        .aside{
+            display: flex;
+            background-color: rgb(193, 235, 193) ;
+            justify-content: center;
+            width: 30%;
+            padding-top: 20px;
+        }
+        .article1{ 
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: row wrap;
+        flex-basis: 43%;
+            height: 50px;
+            background-color: bisque;
+            margin: auto;
+            margin-left: 20px;
+            margin-right: 47px;
+        }
+        .article2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: row wrap;
+            flex-basis: 43%;
+            height: 50px;
+            background-color: bisque;
+            margin: auto;
+            margin-left: 47px;
+            margin-right: 20px;
+        }
+        .article3{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: row wrap;
+            align-self: stretch;
+            flex-basis: 100%;
+            height: 50px;
+            background-color: bisque;
+            margin: auto;
+            margin-left: 20px;
+            margin-right: 20px; 
+        }
+        .footer{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            width: 100vw;
+            height: 70px;
+            background-color: rgb(178, 178, 178); 
+            align-items: center;   
+        }
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 23%;
+    height: 40px;
+    background-color: rgb(156, 156, 206);
+    margin-left: 10px;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 23%;
+    height: 40px;
+    background-color: rgb(156, 156, 206);
+    margin-left: 10px;
+}
+.footer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 23%;
+    height: 40px;
+    background-color: rgb(156, 156, 206);
+    margin-left: 10px;
+}
+.footer4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 23%;
+    height: 40px;
+    background-color: rgb(156, 156, 206);
+    margin-left: 10px;
+    margin-right: 10px;
+}
